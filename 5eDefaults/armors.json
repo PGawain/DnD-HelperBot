@@ -1,0 +1,100 @@
+{
+    "light_armor": [
+        {
+            "name": "Padded",
+            "cost": "5gp",
+            "armor_class": "11 + dex",
+            "stealth": "disadvantage",
+            "weight": "8"
+        },
+        {
+            "name": "Leather Armor",
+            "cost": "10gp",
+            "armor_class": "11 + dex",
+            "stealth": "",
+            "weight": "10"
+        },
+        {
+            "name": "Studded Leather",
+            "cost": "45gp",
+            "armor_class": "12 + dex",
+            "stealth": "",
+            "weight": "13"
+        }
+    ],
+    "medium_armor": [
+        {
+            "name": "Hide",
+            "cost": "10gp",
+            "armor_class": "12 + dex",
+            "stealth": "",
+            "weight": "12"
+        },
+        {
+            "name": "Chain Shirt",
+            "cost": "50gp",
+            "armor_class": "13 + dex",
+            "stealth": "",
+            "weight": "20"
+        },
+        {
+            "name": "Scale Mail",
+            "cost": "50gp",
+            "armor_class": "14 + dex",
+            "stealth": "disadvantage",
+            "weight": "45"
+        },
+        {
+            "name": "Breastplate",
+            "cost": "400gp",
+            "armor_class": "14 + dex",
+            "stealth": "",
+            "weight": "20"
+        },
+        {
+            "name": "Half Plate",
+            "cost": "750gp",
+            "armor_class": "15 + dex",
+            "stealth": "disadvantage",
+            "weight": "40"
+        }
+    ],
+    "heavy_armor": [
+        {
+            "name": "Ring Mail",
+            "cost": "30gp",
+            "armor_class": "14",
+            "stealth": "disadvantage",
+            "weight": "40"
+        },
+        {
+            "name": "Chain Mail",
+            "cost": "75gp",
+            "armor_class": "16",
+            "stealth": "disadvantage",
+            "weight": "55"
+        },
+        {
+            "name": "Splint",
+            "cost": "200gp",
+            "armor_class": "17",
+            "stealth": "disadvantage",
+            "weight": "60"
+        },
+        {
+            "name": "Plate",
+            "cost": "1500gp",
+            "armor_class": "18",
+            "stealth": "disadvantage",
+            "weight": "65"
+        }
+    ],
+    "shields": [
+        {
+            "name": "Shield",
+            "cost": "10gp",
+            "armor_class": "+2",
+            "weight": "6"
+        }
+    ]
+}

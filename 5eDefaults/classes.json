@@ -1,0 +1,1126 @@
+{
+  "wizard": {
+    "hit_die": "d6",
+    "display_name": "Wizard",
+    "starting_gold_roll": "4d4",
+    "inventory": {
+      "misc": [
+        "Component Pouch or Arcane Focus",
+        "Scholar's Pack or Explorer's Pack",
+        "Spellbook"
+      ],
+      "weapons": ["Quarterstaff or Dagger"],
+      "armor": []
+    },
+    "saving_throws": [
+      "int",
+      "wis"
+    ],
+    "proficiency": {
+      "weapons": ["Dagger", "Dart", "Sling", "Quarterstaff", "Light Crossbow"],
+      "armor": []
+    },
+    "proficiency_choices": {
+      "skill": {
+        "display_name": "Skill Proficiency",
+        "amount": 2,
+        "options": [
+          "arcana",
+          "history",
+          "insight",
+          "investigation",
+          "medicine",
+          "religion"
+        ]
+      }
+    },
+    "levels": {
+      "1": {
+        "spell_slots": [
+          2
+        ],
+        "cantrips_known": 3,
+        "features": [
+          {
+            "id": "spellcasting",
+            "display_name": "Spellcasting",
+            "description": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power."
+          },
+          {
+            "id": "arcane_recovery",
+            "display_name": "Arcane Recovery",
+            "description": "Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up),and none of the slots can be 6th level or higher."
+          }
+        ]
+      },
+      "2": {
+        "spell_slots": [
+          3
+        ],
+        "cantrips_known": 3,
+        "features": [],
+        "features_choices": {
+          "subclass": {
+            "display_name": "Arcane Tradition",
+            "options": [
+              {
+                "subclass_id": "evocation",
+                "id": "arcane_tradition",
+                "display_name": "School of Evocation",
+                "description": "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid"
+              },
+              {
+                "subclass_id": "divination",
+                "id": "arcane_tradition",
+                "display_name": "School of Divination (NOT IMPLEMENTED, SAMPLE ONLY)",
+                "description": "NOT IMPLEMENTED"
+              }
+            ]
+          }
+        },
+        "features_subclass": {
+          "evocation": [
+            {
+              "id": "school_savant",
+              "display_name": "Evocation Savant",
+              "description": "Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved."
+            },
+            {
+              "id": "sculpt_spells",
+              "display_name": "Sculpt Spells",
+              "description": "Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+            }
+          ],
+          "divination": [
+            {
+              "id": "school_savant",
+              "display_name": "Divination Savant",
+              "description": "idk"
+            }
+          ]
+        }
+      },
+      "3": {
+        "spell_slots": [
+          4,
+          2
+        ],
+        "cantrips_known": 3
+      },
+      "4": {
+        "spell_slots": [
+          4,
+          3
+        ],
+        "features": [
+          {
+            "id": "asi",
+            "display_name": "Ability Score Improvement",
+            "description": "Gain +2 in one stat, or +1 to two stats."
+          }
+        ],
+        "cantrips_known": 4
+      },
+      "5": {
+        "spell_slots": [
+          4,
+          3,
+          2
+        ],
+        "cantrips_known": 4
+      },
+      "6": {
+        "spell_slots": [
+          4,
+          3,
+          3
+        ],
+        "features_subclass": {
+          "evocation": [
+            {
+              "id": "potent_cantrip",
+              "display_name": "Potent Cantrip",
+              "description": "Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip."
+            }
+          ],
+          "cantrips_known": 4
+        }
+      },
+      "7": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          1
+        ],
+        "cantrips_known": 4
+      },
+      "8": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          2
+        ],
+        "features": [
+          {
+            "id": "asi",
+            "display_name": "Ability Score Improvement",
+            "description": "Gain +2 in one stat, or +1 to two stats."
+          }
+        ],
+        "cantrips_known": 4
+      },
+      "9": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          1
+        ],
+        "cantrips_known": 4
+      },
+      "10": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2
+        ],
+        "features_subclass": {
+          "evocation": [
+            {
+              "id": "empowered_evocation",
+              "display_name": "Empowered Evocation",
+              "description": "Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast."
+            }
+          ],
+          "cantrips_known": 5
+        }
+      },
+      "11": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1
+        ],
+        "cantrips_known": 5
+      },
+      "12": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1
+        ],
+        "features": [
+          {
+            "id": "asi",
+            "display_name": "Ability Score Improvement",
+            "description": "Gain +2 in one stat, or +1 to two stats."
+          }
+        ],
+        "cantrips_known": 5
+      },
+      "13": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1
+        ],
+        "cantrips_known": 5
+      },
+      "14": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1
+        ],
+        "features_subclass": {
+          "evocation": [
+            {
+              "id": "overchannel",
+              "display_name": "Overchannel",
+              "description": "Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maxi mum damage with that spell. The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity."
+            }
+          ]
+        },
+        "cantrips_known": 5
+      },
+      "15": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1
+        ],
+        "cantrips_known": 5
+      },
+      "16": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1
+        ],
+        "features": [
+          {
+            "id": "asi",
+            "display_name": "Ability Score Improvement",
+            "description": "Gain +2 in one stat, or +1 to two stats."
+          }
+        ],
+        "cantrips_known": 5
+      },
+      "17": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cantrips_known": 5
+      },
+      "18": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "features": [
+          {
+            "id": "spell_mastery",
+            "display_name": "Spell Mastery",
+            "description": "At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you expend a spell slot as normal. By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
+          }
+        ],
+        "cantrips_known": 5
+      },
+      "19": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "features": [
+          {
+            "id": "asi",
+            "display_name": "Ability Score Improvement",
+            "description": "Gain +2 in one stat, or +1 to two stats."
+          }
+        ],
+        "cantrips_known": 5
+      },
+      "20": {
+        "spell_slots": [
+          4,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "features": [
+          {
+            "id": "signature_spell",
+            "display_name": "Signature Spell",
+            "description": "When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don’t count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can’t do so again until you finish a short or long rest. If you want to cast either spell at a higher level, you must expend a spell slot as normal."
+          }
+        ],
+        "cantrips_known": 5
+      }
+    }
+  },
+  "barbarian" : {
+    "hit_die" : "1d12",
+    "display_name" : "Barbarian",
+    "starting_gold_roll" : "2d4",
+    "inventory" : {
+      "misc" : ["Explorer's Pack"],
+      "weapons" : ["Greataxe or any martial melee weapon", "2 Handaxe or any simple weapon", "4 Javelin"],
+      "armor" : []
+    },
+    "saving_throws" : [
+      "str",
+      "con"
+    ],
+
+    "proficiency" : {
+      "weapons" : [
+        "Simple weapons",
+        "Martial weapons"
+      ],
+
+      "armor" : [
+        "Light Armor",
+        "Medium Armor",
+        "Shields"
+      ]
+    },
+
+    "proficiency_choices" : {
+      "skill" : {
+        "display_name" : "Skill Proficiency",
+        "amount" : 2,
+        "options" : [
+          "animal_handling",
+          "athletics",
+          "intimidation",
+          "nature",
+          "perception",
+          "survival"
+        ]
+      }
+    },
+
+    "levels" : {
+      "1" : {
+        "rages" : 2,
+        "features" : [
+          {
+            "id" : "rage",
+            "display_name" : "Rage",
+            "description" : "In battle, you fight with primal ferocity. On your turn,you can enter a rage as a bonus action. Your rage lasts for 1 minute."
+          },
+
+          {
+            "id" : "Unarmore Defense",
+            "display_name" : "Unarmored defense",
+            "description" : "While you are not wearing any armor, your Arm or Class equals 10 + your Dexterity m odifier + your Constitution modifier. You can use a shield and still gain this benefit."
+          }
+        ]
+      },
+
+      "2" : {
+        "rages" : 2,
+        "features" : [
+
+          {
+            "id" : "reckless attack",
+            "display_name" : "Reckless Attack",
+            "description" : "Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. D oing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
+
+          },
+
+          {
+            "id" : "danger sense",
+            "display_name" : "Danger Sense",
+            "description" : "At 2nd level, you gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated."
+          }
+        ]
+      },
+
+      "3" : {
+        "rages" : 3,
+        "features" : [
+
+          {
+            "id" : "primal path",
+            "display_name" : "Primal Path",
+            "description" : "At 3rd level, you choose a path that shapes the nature of your rage. C hoose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
+          }
+
+        ]
+      },
+
+      "4" : {
+        "rages" : 3,
+        "features" : [
+          {
+            "id" : "asi",
+            "display_name" : "Ability Score Improvement",
+            "description" : "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+
+          }
+
+        ]
+      },
+
+      "5" : {
+        "rages" : 3,
+        "features" : [
+
+          {
+            "id" : "extra attack",
+            "display_name" : "Extra Attack",
+            "description" : "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn"
+          },
+
+          {
+            "id" : "fast movement",
+            "display_name" : "Fast Movement",
+            "description" : "Starting at 5th level, your speed increases by 10 feet while you aren’t w earing heavy armor."
+          }
+
+        ]
+      },
+
+      "6" : {
+        "rages" : 4,
+        "features" : [
+
+          {
+            "id" : "path feauture",
+            "display_name" : "Path Feature",
+            "description" : ".."
+          }
+
+        ]
+      },
+
+      "7" : {
+        "rages" : "4",
+        "features" : [
+
+          {
+            "id" : "feral instinct",
+            "display_name" : "Feral Instinct",
+            "description" : "By 7th level, your instincts are so honed that you have advantage on initiative rolls. Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+          }
+
+        ]
+      },
+
+      "8" : {
+        "rages" : 4,
+        "features" : [
+
+          {
+
+            "id" : "asi",
+            "display_name" : "Ability Score Improvement",
+            "description" : "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+
+          }
+
+        ]
+      },
+
+      "9" : {
+        "rages" : 4,
+        "features" : [
+
+          {
+            "id" : "brutal critical",
+            "display_name" : "Brutal Critical",
+            "description" : "Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack. This increases to two additional dice at 13th level and three additional dice at 17th level."
+          }
+
+        ]
+      },
+
+      "10" : {
+        "rages" : 4,
+        "features" : [
+
+
+          {
+            "id" : "path feauture",
+            "display_name" : "Path Feature",
+            "description" : ".."
+
+          }
+
+        ]
+      },
+
+      "11" : {
+        "rages" : 4,
+        "features" : [
+
+          {
+            "id" : "relentless rage",
+            "display_name" : "Relentless Name",
+            "description" : "Starting at 11th level, your rage can keep you fighting despite grievous w ounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead. Each time you use this feature after the first, the DC increases by 5. W hen you finish a short or long rest, the DC resets to 10."
+          }
+
+        ]
+      },
+
+      "12" : {
+        "rages" : 5,
+        "features" : [
+
+          {
+            "id" : "asi",
+            "display_name" : "Ability Score Improvement",
+            "description" : "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+          }
+
+        ]
+      },
+
+      "13" : {
+        "rages" : 5,
+        "features" : [
+
+          {
+            "id" : "brutal critical",
+            "display_name" : "Brutal Critical",
+            "description" : "Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack. This increases to two additional dice at 13th level and three additional dice at 17th level."
+          }
+
+        ]
+      },
+
+      "14" : {
+        "rages" : 5,
+        "features" : [
+
+          {
+            "id" : "path feauture",
+            "display_name" : "Path Feature",
+            "description" : ".."
+          }
+
+        ]
+      },
+
+      "15" : {
+        "rages" : 5,
+        "features" : [
+
+          {
+            "id" : "persistent rage",
+            "display_name" : "Persistent Rage",
+            "description" : "Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it."
+
+          }
+
+        ]
+      },
+
+      "16" : {
+        "rages" : 5,
+        "features" : [
+
+          {
+            "id" :"asi",
+            "display_name" : "Ability Score Improvement",
+            "description" : "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+
+          }
+
+        ]
+      },
+
+      "17" : {
+        "rages" : 6,
+        "features" : [
+
+          {
+            "id" : "brutal critical",
+            "display_name" : "Brutal Critical",
+            "description" : "Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack. This increases to two additional dice at 13th level and three additional dice at 17th level."
+
+          }
+
+        ]
+      }, 
+
+      "18": {
+        "rages" : 6,
+        "features" : [
+
+          {
+            "id" : "indomitable might",
+            "display_name" : "Indomitable Might",
+            "description" : "Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+          }
+
+        ]
+      },
+
+      "19" : {
+        "rages" : 6,
+        "features" : [
+
+          {
+            "id" : "asi",
+            "display_name" : "Ability Score Improvement",
+            "description" : "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you  can’t increase an ability score above 20 using this feature."
+          }
+
+        ]
+      },
+
+      "20" : {
+        "rages" : "unlimited",
+        "features" : [
+
+          {
+            "id" : "primal champion",
+            "display_name" : "Primal Champion",
+            "description" : "At 20th level, you em body the pow er of the wilds. Your Strength and Constitution scores increase by 4. Your maxim um for those scores is now 24."
+
+          }
+
+
+        ]
+
+      }
+
+    }
+  },
+  "cleric": {
+    "hit_die": "1d8",
+    "display_name": "Cleric",
+    "starting_gold_roll": "5d4",
+    "inventory": {
+      "misc": 
+      [
+        "Holy Symbol",
+        "Priest's Pack or Explorer's Pack",
+        "20 Bolts"
+      ],
+      "weapons": [
+        "Mace or Warhammer",
+        "Light Crossbow"
+      ],
+      "armor": [
+        "Scale Mail or Leather Armor",
+        "Shield"
+      ]
+    },
+    "saving_throws": [
+        "wis",
+        "cha"
+    ],
+
+    "proficiency": {
+        "weapons": [
+            "Simple weapons"
+        ],
+
+        "armor": [
+            "Light Armor",
+            "Medium Armor",
+            "Shields"
+        ]
+    },
+
+    "proficiency_choices": {
+        "skill": {
+            "display_name": "Skill Proficiency",
+            "amount": 2,
+            "options": [
+                "history",
+                "insight",
+                "medicine",
+                "persuasion",
+                "religion"
+            ]
+        }
+    },
+
+    "levels": {
+      "1": {
+          "spell_slots": [
+              2
+          ],
+          "cantrips_known": 3,
+          "features": [
+             {
+                  "id": "spellcasting",
+                  "display_name": "Spellcasting",
+                  "description": "As a conduit for divine power, you can cast Cleric spells."
+              },
+
+              {
+                  "id": "divine domain spells",
+                  "display_name": "Divine Domain Spells",
+                  "description": "Your divine domain grants you access to domain-specific spells that don't count against the number of spells you can prepare each day."
+              },
+              {
+                "id": "divine domain",
+                "display_name": "Divine Domain",
+                "description": "At 1st level, you choose a domain that represents your deity and grants you domain-specific features. Choose from the following Domains:",
+                "options": [
+                  {
+                      "subclass_id": "knowledge",
+                      "id": "divine_domain",
+                      "display_name": "Knowledge Domain",
+                      "description": "The Knowledge domain is dedicated to the gods of learning, knowledge, and mental discipline. Its adherents are sages and mystics who wield secrets as weapons."
+                  },
+                  {
+                      "subclass_id": "life",
+                      "id": "divine_domain",
+                      "display_name": "Life Domain",
+                      "description": "The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life."
+                  }
+                ]
+              }
+            ]
+      },
+
+      "2": {
+          "spell_slots": [
+              3
+          ],
+          "cantrips_known": 3,
+          "features": [
+              {
+                  "id": "channel divinity",
+                  "display_name": "Channel Divinity",
+                  "description": "At 2nd level, you can tap into your connection to your deity to invoke divine power. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+              }
+          ]
+      },
+
+      "3": {
+          "spell_slots": [
+              4,
+              2
+          ],
+          "cantrips_known": 3
+      },
+
+      "4": {
+          "spell_slots": [
+              4,
+              3
+          ],
+          "features": [
+              {
+                  "id": "asi",
+                  "display_name": "Ability Score Improvement",
+                  "description": "Gain +2 in one stat, or +1 to two stats."
+              }
+          ],
+          "cantrips_known": 4
+      },
+
+      "5": {
+          "spell_slots": [
+              4,
+              3,
+              2
+          ],
+          "features": [
+            {
+                "id": "destroy_undead_cr_1_2",
+                "display_name": "Destroy Undead CR 1/2",
+                "description": "Starting at 5th level, when an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+            }
+          ],
+          "cantrips_known": 4
+      },
+
+      "6": {
+          "spell_slots": [
+              4,
+              3,
+              3
+          ],
+          "features": [
+              {
+                  "id": "channel divinity (2/rest)",
+                  "display_name": "Channel Divinity (2/rest)",
+                  "description": "Starting at 6th level, your Channel Divinity feature now has two uses between rests."
+              }
+          ],
+          "cantrips_known": 4
+      },
+
+      "7": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              1
+          ],
+          "cantrips_known": 4
+      },
+
+      "8": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              2
+          ],
+          "features": [
+              {
+                "id": "destroy_undead_cr_1",
+                "display_name": "Destroy Undead CR 1",
+                "description": "At 8th level, when an undead of CR 1 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+              },
+              {
+                "id": "asi",
+                "display_name": "Ability Score Improvement",
+                "description": "Gain +2 in one stat, or +1 to two stats."
+            }
+          ],
+          "cantrips_known": 4
+      },
+
+      "9": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              1
+          ],
+          "cantrips_known": 4
+      },
+
+      "10": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2
+          ],
+          "features": [
+              {
+                  "id": "divine intervention",
+                  "display_name": "Divine Intervention",
+                  "description": "Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great."
+              }
+          ],
+          "cantrips_known": 5
+      },
+
+      "11": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1
+          ],
+          "features": [
+            {
+                "id": "destroy_undead_cr_2",
+                "display_name": "Destroy Undead CR 2",
+                "description": "At 11th level, when an undead of CR 2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+            }
+          ],
+          "cantrips_known": 5
+      },
+
+      "12": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1
+          ],
+          "features": [
+              {
+                  "id": "asi",
+                  "display_name": "Ability Score Improvement",
+                  "description": "Gain +2 in one stat, or +1 to two stats."
+              }
+          ],
+          "cantrips_known": 5
+      },
+
+      "13": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1
+          ],
+          "cantrips_known": 5
+      },
+
+      "14": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1
+          ],
+          "features": [
+              {
+                  "id": "destroy_undead_cr_3",
+                  "display_name": "Destroy Undead CR 3",
+                  "description": "At 14th level, when an undead of CR 3 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+              }
+          ],
+          "cantrips_known": 5
+      },
+
+      "15": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+          ],
+          "cantrips_known": 5
+      },
+
+      "16": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+          ],
+          "features": [
+              {
+                  "id": "asi",
+                  "display_name": "Ability Score Improvement",
+                  "description": "Gain +2 in one stat, or +1 to two stats."
+              }
+          ],
+          "cantrips_known": 5
+      },
+
+      "17": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+          ],
+          "features": [
+            {
+                "id": "destroy_undead_cr_4",
+                "display_name": "Destroy Undead CR 4",
+                "description": "At 17th level, when an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+            }
+          ],
+          "cantrips_known": 5
+      },
+
+      "18": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+          ],
+          "features": [
+            {
+                "id": "channel divinity (3/rest)",
+                "display_name": "Channel Divinity (3/rest)",
+                "description": "At 18th level, your Channel Divinity feature now has three uses between rests."
+            }
+        ],
+          "cantrips_known": 5
+      },
+
+      "19": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+          ],
+          "features": [
+            {
+                "id": "asi",
+                "display_name": "Ability Score Improvement",
+                "description": "Gain +2 in one stat, or +1 to two stats."
+            }
+        ],
+          "cantrips_known": 5
+      },
+
+      "20": {
+          "spell_slots": [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1,
+              1
+          ],
+          "features": [
+              {
+                  "id": "divine_intervention_improved",
+                  "display_name": "Divine Intervention (Improved)",
+                  "description": "At 20th level, your call for intervention succeeds automatically, no roll required."
+              }
+          ],
+          "cantrips_known": 5
+      }
+    }
+  }
+}

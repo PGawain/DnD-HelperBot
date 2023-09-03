@@ -1,0 +1,176 @@
+{
+	"stats": {
+		"str": {
+			"display_name": "Strength",
+			"value": 10,
+			"fixed_modifier": 0
+		},
+		"dex": {
+			"display_name": "Dexterity",
+			"value": 10,
+			"fixed_modifier": 0
+		},
+		"con": {
+			"display_name": "Constitution",
+			"value": 10,
+			"fixed_modifier": 0
+		},
+		"int": {
+			"display_name": "Intelligence",
+			"value": 10,
+			"fixed_modifier": 0
+		},
+		"wis": {
+			"display_name": "Wisdom",
+			"value": 10,
+			"fixed_modifier": 0
+		},
+		"cha": {
+			"display_name": "Charisma",
+			"value": 10,
+			"fixed_modifier": 0
+		}
+	},
+	"saving_throws": {
+		"str_save": {
+			"display_name": "Strength Saving Throw",
+			"linked_stat": "str",
+			"proficiency_multiplier": 0
+		},
+		"dex_save": {
+			"display_name": "Dexterity Saving Throw",
+			"linked_stat": "dex",
+			"proficiency_multiplier": 0
+		},
+		"con_save": {
+			"display_name": "Constitution Saving Throw",
+			"linked_stat": "con",
+			"proficiency_multiplier": 0
+		},
+		"int_save": {
+			"display_name": "Intelligence Saving Throw",
+			"linked_stat": "int",
+			"proficiency_multiplier": 0
+		},
+		"wis_save": {
+			"display_name": "Wisdom Saving Throw",
+			"linked_stat": "wis",
+			"proficiency_multiplier": 0
+		},
+		"cha_save": {
+			"display_name": "Charisma Saving Throw",
+			"linked_stat": "cha",
+			"proficiency_multiplier": 0
+		}
+	},
+	"skills": {
+		"acrobatics": {
+			"display_name": "Acrobatics",
+			"linked_stat": "dex",
+			"proficiency_multiplier": 0
+		},
+		"animal_handling": {
+			"display_name": "Animal Handling",
+			"linked_stat": "wis",
+			"proficiency_multiplier": 0
+		},
+		"arcana": {
+			"display_name": "Arcana",
+			"linked_stat": "int",
+			"proficiency_multiplier": 0
+		},
+		"athletics": {
+			"display_name": "Athletics",
+			"linked_stat": "str",
+			"proficiency_multiplier": 0
+		},
+		"deception": {
+			"display_name": "Deception",
+			"linked_stat": "cha",
+			"proficiency_multiplier": 0
+		},
+		"history": {
+			"display_name": "History",
+			"linked_stat": "int",
+			"proficiency_multiplier": 0
+		},
+		"insight": {
+			"display_name": "Insight",
+			"linked_stat": "wis",
+			"proficiency_multiplier": 0
+		},
+		"intimidation": {
+			"display_name": "Intimidation",
+			"linked_stat": "cha",
+			"proficiency_multiplier": 0
+		},
+		"investigation": {
+			"display_name": "Investigation",
+			"linked_stat": "int",
+			"proficiency_multiplier": 0
+		},
+		"medicine": {
+			"display_name": "Medicine",
+			"linked_stat": "wis",
+			"proficiency_multiplier": 0
+		},
+		"nature": {
+			"display_name": "Nature",
+			"linked_stat": "int",
+			"proficiency_multiplier": 0
+		},
+		"perception": {
+			"display_name": "Perception",
+			"linked_stat": "wis",
+			"proficiency_multiplier": 0
+		},
+		"performance": {
+			"display_name": "Performance",
+			"linked_stat": "cha",
+			"proficiency_multiplier": 0
+		},
+		"persuasion": {
+			"display_name": "Persuasion",
+			"linked_stat": "cha",
+			"proficiency_multiplier": 0
+		},
+		"religion": {
+			"display_name": "Religion",
+			"linked_stat": "int",
+			"proficiency_multiplier": 0
+		},
+		"sleight_of_hand": {
+			"display_name": "Sleight Of Hand",
+			"linked_stat": "dex",
+			"proficiency_multiplier": 0
+		},
+		"stealth": {
+			"display_name": "Stealth",
+			"linked_stat": "dex",
+			"proficiency_multiplier": 0
+		},
+		"survival": {
+			"display_name": "Survival",
+			"linked_stat": "wis",
+			"proficiency_multiplier": 0
+		}
+	},
+	"languages": [
+		"Common",
+		"Dwarvish",
+		"Elvish",
+		"Giant",
+		"Gnomish",
+		"Goblin",
+		"Halfling",
+		"Orc",
+		"Abyssal",
+		"Celestial",
+		"Deep Speech",
+		"Draconic",
+		"Infernal",
+		"Primordial",
+		"Sylvan",
+		"Undercommon"
+	]
+}

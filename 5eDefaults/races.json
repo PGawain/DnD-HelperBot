@@ -1,0 +1,341 @@
+{
+  "dwarf": {
+    "display_name": "Dwarf",
+    "default": {
+      "display_name": "Standard dwarf",
+      "languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "ability_score_modifiers": {
+        "constitution": 2
+      },
+      "size": "medium",
+      "speed": {
+        "walking": 25
+      },
+      "features": [
+        {
+          "id": "dwarven_resilience",
+          "display_name": "Dwarven Resilience",
+          "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+        },
+        {
+          "id": "stonecunning",
+          "display_name": "Stonecunning",
+          "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus"
+        },
+        {
+          "id": "darkvision",
+          "display_name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        }
+      ],
+      "proficiency": {
+        "weapon": [
+          "Battleaxe",
+          "Handaxe",
+          "Light Hammer",
+          "Warhammer"
+        ]
+      },
+      "proficiency_choices": {
+        "tool": {
+          "display_name": "Tool Proficiency",
+          "options": [
+            "Smith's tools",
+            "Brewer's supplies",
+            "Mason's tools"
+          ]
+        }
+      }
+    },
+    "subraces_choice": {
+      "display_name": "Subrace",
+      "options": [
+        {
+          "id": "hill",
+          "display_name": "Hill Dwarf",
+          "ability_score_modifiers": {
+            "wisdom": 1
+          },
+          "features": [
+            {
+              "id": "dwarven_toughness",
+              "display_name": "Dwarven Toughness",
+              "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+            }
+          ]
+        },
+        {
+          "id": "mountain",
+          "display_name": "Mountain Dwarf",
+          "ability_score_modifiers": {
+            "strength": 2
+          },
+          "proficiency": {
+            "armor": [
+              "Light Armor",
+              "Medium Armor"
+            ]
+          }
+        }
+      ]
+    },
+    "race_description" : {
+      "subraces" : [
+        {
+          "description" : "Hill Dwarf: Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faer�n in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting. \nIts racial traits are: Darkvision, Dwarven Resilience, Dwarven Combat Training, Tool Proficiency, Stonecunning, Dwarven Toughness"
+        },
+
+        {
+          "description" : "Mountain Dwarf: Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. As a mountain dwarf, you�re strong and hardy, accustomed to a difficult life in rugged terrain. You�re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faer�n, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves. Its racial traits are: Darkvision, Dwarven Resilience, Dwarven Combat Training, Tool Proficiency, Stonecunning, Dwarven Armor Training."
+        }
+      ]
+    }
+  },
+  "elf": {
+    "display_name": "Elf",
+    "default": {
+      "display_name": "Standard elf",
+      "languages": [
+        "Common",
+        "Elvish"
+      ],
+      "ability_score_modifiers": {
+        "dexterity": 2
+      },
+      "size": "medium",
+      "speed": {
+        "walking": 30
+      },
+      "features": [
+        {
+          "id": "fey_ancestry",
+          "display_name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can�t put you to sleep."
+        },
+        {
+          "id": "trance",
+          "display_name": "Trance",
+          "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day."
+        },
+        {
+          "id": "darkvision",
+          "display_name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        }
+      ],
+      "proficiency": {
+        "skill": [
+          "perception"
+        ]
+      }
+    },
+    "subraces_choice": {
+      "display_name": "Subrace",
+      "options": [
+        {
+          "id": "high",
+          "display_name": "High Elf",
+          "ability_score_modifiers": {
+            "intellingence": 1
+          },
+          "languages_available": 1,
+          "proficiency": {
+            "weapon": [
+              "Longsword",
+              "Shortsword",
+              "Shortbow",
+              "Longbow"
+            ]
+          }
+        },
+        {
+          "id": "wood",
+          "display_name": "Wood Elf",
+          "ability_score_modifiers": {
+            "wisdom": 1
+          },
+          "speed": {
+            "walking": 35
+          },
+          "features": [
+            {
+              "id": "mask_wild",
+              "display_name": "Mask of the Wild",
+              "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+            }
+          ],
+          "proficiency": {
+            "weapon": [
+              "Longsword",
+              "Shortsword",
+              "Shortbow",
+              "Longbow"
+            ]
+          }
+        }
+      ]
+    },
+    "race_description" : {
+      "subraces" : [
+        {
+          "description": "High Elf: As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races. \nIts racial traits are: Darkvision, Keen Senses, Fey Ancestry, Trance, Elf Weapon Training, Cantrip"
+        },
+
+        {
+          "description": "Wood Elf: As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faer�n, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves� skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel."
+        }
+      ]
+    }
+  },
+  "halfling": {
+    "display_name": "Halfling",
+    "default": {
+      "display_name": "Standard Halfling",
+      "languages": [
+        "Common",
+        "Halfling"
+      ],
+      "ability_score_modifiers": {
+        "dexterity": 2
+      },
+      "size": "small",
+      "speed": {
+        "walking": 25
+      },
+      "features": [
+        {
+          "id": "lucky",
+          "display_name": "Lucky",
+          "description": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die andmust use the new roll."
+        },
+        {
+          "id": "brave",
+          "display_name": "Brave",
+          "description": "You have advantage on saving throws against being frightened."
+        },
+        {
+          "id": "halfling_nimbness",
+          "display_name": "Halfling Nimbleness",
+          "description": "You can move through the space of any creature that is of a size larger than yours."
+        }
+      ]
+    },
+    "subraces_choice": {
+      "display_name": "Subrace",
+      "options": [
+        {
+          "id": "lightfoot",
+          "display_name": "Lightfoot Halfling",
+          "ability_score_modifiers": {
+            "charisma": 1
+          },
+          "features": [
+            {
+              "id": "halfling_nimbness",
+              "display_name": "Naturally Stealthy",
+              "description": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+            }
+          ]
+        },
+        {
+          "id": "stout",
+          "display_name": "Stout Halfling",
+          "ability_score_modifiers": {
+            "constitution": 1
+          },
+          "features": [
+            {
+              "id": "stout_resilience",
+              "display_name": "Stout Resilience",
+              "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+            }
+          ]
+        }
+      ]
+    },
+    "race_description" : {
+      "subraces": [
+
+        {
+          "description": "Lightfoot Halfling: The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You�re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows. Its racial traits are: Lucky, Brave, Halfling Nimbleness, Naturally Stealthy"
+        }
+      ]
+    }
+  },
+  "human": {
+    "display_name": "Human",
+    "languages_available": 1,
+    "default": {
+      "display_name": "Standard Human",
+      "languages": [
+        "Common"
+      ],
+      "ability_score_modifiers": {
+        "strength": 1,
+        "constitution": 1,
+        "dexterity": 1,
+        "intellingence": 1,
+        "wisdom": 1,
+        "charisma": 1
+      },
+      "size": "medium",
+      "speed": {
+        "walking": 30
+      }
+    },
+    "race_description" : {
+      "subraces": [
+        {
+          "description" : "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds. Its racial traits are: +1 to All Ability Scores, Extra Language."
+        }
+      ]
+    }
+  },
+  "dragonborn" : {
+    "display_name": "Dragonborn",
+    "languages_available" : 2,
+    "default" : {
+      "display_name": "Standard Dragonborn",
+      "languages" : [
+        "Common",
+        "Draconic"
+      ],
+      "ability_score_modifiers" : {
+        "str" : 2,
+        "cha" : 1
+      },
+      "size" : "medium",
+      "speed" : {
+        "walking" :30
+      },
+      "features" : [
+        {
+          "id" : "draconic_ancestry",
+          "display_name" : "Draconic Ancestry",
+          "description" : "aspe riguarda"
+        }, 
+
+        {
+          "id" : "breath_weapon",
+          "display_name" : "Breath Weapon",
+          "description" : "aspe riguarda"
+        },
+
+        {
+          "id" : "breath_weapon",
+          "display_name" : "Breath Weapon",
+          "description" : "aspe riguarda"
+        },
+
+        {
+          "id" : "damage_resistance",
+          "display_name" : "Damage Resistance",
+          "description" : "You have resistance to the damage type associated with your draconic ancestry."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,477 @@
+[
+    {
+        "name": "Pizza",
+        "ID": 0,
+        "public": true,
+        "key": "",
+        "ID_Master": 143213037,
+        "players": [
+            {
+                "ID": 143213037,
+                "ID_char": ""
+            },
+            {
+                "ID": 1068338946,
+                "ID_char": {
+                    "name": "Rolindo",
+                    "race": "dwarf",
+                    "subrace": "Hill Dwarf",
+                    "class": "wizard",
+                    "background": "acolyte",
+                    "background story": "",
+                    "ability_scores": {
+                        "Strength": 5,
+                        "Dexterity": 14,
+                        "Constitution": 18,
+                        "Intelligence": 12,
+                        "Wisdom": 15,
+                        "Charisma": 13
+                    },
+                    "ability_modifiers": {
+                        "Strength": -3,
+                        "Dexterity": 2,
+                        "Constitution": 3,
+                        "Intelligence": 1,
+                        "Wisdom": 2,
+                        "Charisma": 1
+                    },
+                    "features": [],
+                    "armor": "Padded ",
+                    "weapons": [
+                        "Flail",
+                        "Greatclub",
+                        "Battleaxe",
+                        "Club",
+                        "Dart",
+                        "Dart"
+                    ],
+                    "inventory": {
+                        "misc": [
+                            "Spellbook",
+                            "Holy Symbol",
+                            "Prayer book/wheel",
+                            "5 sticks of incense",
+                            "Vestments",
+                            "Common clothes",
+                            "Component pouch",
+                            "Scholar's pack"
+                        ],
+                        "weapons": [
+                            "Quarterstaff or Dagger"
+                        ],
+                        "armor": [],
+                        "gold": 10
+                    },
+                    "max_weight": 30.0,
+                    "current_weight": 29.5,
+                    "level": 1,
+                    "proficiency": {
+                        "weapons": [
+                            "Dagger",
+                            "Dart",
+                            "Sling",
+                            "Quarterstaff",
+                            "Light Crossbow"
+                        ],
+                        "skill": [],
+                        "armor": []
+                    }
+                }
+            }
+        ],
+        "events": [
+            [
+                {
+                    "Type": "Monster",
+                    "Name": "Wyrmling black dragon",
+                    "Armor Class": 17,
+                    "Hit Points": "11",
+                    "Challenge": 450,
+                    "Speed": 30,
+                    "Ability Scores": {
+                        "Strength": 15,
+                        "Dexterity": 14,
+                        "Constitution": 13,
+                        "Intelligence": 10,
+                        "Wisdom": 11,
+                        "Charisma": 13
+                    },
+                    "Saving Throws": {
+                        "Strength": "",
+                        "Dexterity": "+4",
+                        "Constitution": "+3",
+                        "Intelligence": "",
+                        "Wisdom": "+2",
+                        "Charisma": "+3"
+                    },
+                    "Legendary Resistance": "",
+                    "Actions": [
+                        "Bite",
+                        "Acid Breath"
+                    ],
+                    "Legendary Actions": [],
+                    "Skills": [
+                        "Perception +4",
+                        "Stealth +4"
+                    ],
+                    "Immunities": [
+                        "Acid"
+                    ],
+                    "Resitances": []
+                }
+            ],
+            [
+                {
+                    "Type": "Monster",
+                    "Name": "Goblin boss",
+                    "Armor Class": 17,
+                    "Hit Points": 21,
+                    "Challenge": 200,
+                    "Speed": 30,
+                    "Ability Scores": {
+                        "Strength": 10,
+                        "Dexterity": 14,
+                        "Constitution": 10,
+                        "Intelligence": 10,
+                        "Wisdom": 8,
+                        "Charisma": 10
+                    },
+                    "Saving Throws": {
+                        "Strength": "",
+                        "Dexterity": "",
+                        "Constitution": "",
+                        "Intelligence": "",
+                        "Wisdom": "",
+                        "Charisma": ""
+                    },
+                    "Legendary Resistance": "",
+                    "Actions": [
+                        "Scimitar",
+                        "Multiattack",
+                        "Javelin"
+                    ],
+                    "Legendary Actions": [],
+                    "Skills": [
+                        "Stealth +6"
+                    ],
+                    "Immunities": [],
+                    "Resitances": []
+                }
+            ]
+        ]
+    },
+    {
+        "name": "Carolina Reaper",
+        "ID": 1,
+        "public": true,
+        "key": "",
+        "ID_Master": 143213037,
+        "players": [
+            {
+                "ID": 143213037,
+                "ID_char": ""
+            }
+        ],
+        "events": [
+            [
+                {
+                    "Type": "Monster",
+                    "Name": "Mimic",
+                    "Armor Class": 12,
+                    "Hit Points": 58,
+                    "Challenge": 450,
+                    "Speed": 15,
+                    "Ability Scores": {
+                        "Strength": 17,
+                        "Dexterity": 12,
+                        "Constitution": 15,
+                        "Intelligence": 5,
+                        "Wisdom": 13,
+                        "Charisma": 8
+                    },
+                    "Saving Throws": {
+                        "Strength": "",
+                        "Dexterity": "",
+                        "Constitution": "",
+                        "Intelligence": "",
+                        "Wisdom": "",
+                        "Charisma": ""
+                    },
+                    "Legendary Resistance": "",
+                    "Actions": [
+                        "Pseudopod",
+                        "Bite"
+                    ],
+                    "Legendary Actions": [],
+                    "Skills": [
+                        "Stealth +5"
+                    ],
+                    "Immunities": [
+                        "Acid"
+                    ],
+                    "Resitances": []
+                }
+            ]
+        ]
+    },
+    {
+        "name": "Providence",
+        "ID": 2,
+        "public": true,
+        "key": "",
+        "ID_Master": 143213037,
+        "players": [
+            {
+                "ID": 143213037,
+                "ID_char": ""
+            }
+        ],
+        "events": [
+            [
+                {
+                    "Type": "Monster",
+                    "Name": "Mimic",
+                    "Armor Class": 12,
+                    "Hit Points": 58,
+                    "Challenge": 450,
+                    "Speed": 15,
+                    "Ability Scores": {
+                        "Strength": 17,
+                        "Dexterity": 12,
+                        "Constitution": 15,
+                        "Intelligence": 5,
+                        "Wisdom": 13,
+                        "Charisma": 8
+                    },
+                    "Saving Throws": {
+                        "Strength": "",
+                        "Dexterity": "",
+                        "Constitution": "",
+                        "Intelligence": "",
+                        "Wisdom": "",
+                        "Charisma": ""
+                    },
+                    "Legendary Resistance": "",
+                    "Actions": [
+                        "Pseudopod",
+                        "Bite"
+                    ],
+                    "Legendary Actions": [],
+                    "Skills": [
+                        "Stealth +5"
+                    ],
+                    "Immunities": [
+                        "Acid"
+                    ],
+                    "Resitances": []
+                }
+            ]
+        ]
+    },
+    {
+        "name": "Tarsia",
+        "ID": 3,
+        "public": true,
+        "key": "",
+        "ID_Master": 143213037,
+        "players": [
+            {
+                "ID": 143213037,
+                "ID_char": ""
+            }
+        ],
+        "events": [
+            [
+                {
+                    "Type": "Monster",
+                    "Name": "Glabrezu",
+                    "Armor Class": 17,
+                    "Hit Points": 100,
+                    "Challenge": 5000,
+                    "Speed": 40,
+                    "Ability Scores": {
+                        "Strength": 20,
+                        "Dexterity": 15,
+                        "Constitution": 21,
+                        "Intelligence": 19,
+                        "Wisdom": 17,
+                        "Charisma": 16
+                    },
+                    "Saving Throws": {
+                        "Strength": "+9",
+                        "Dexterity": "",
+                        "Constitution": "+9",
+                        "Intelligence": "",
+                        "Wisdom": "+7",
+                        "Charisma": "+7"
+                    },
+                    "Legendary Resistance": "",
+                    "Actions": [
+                        "Multiattack",
+                        "Pincer",
+                        "Fist"
+                    ],
+                    "Legendary Actions": [],
+                    "Skills": [],
+                    "Immunities": [
+                        "Poison"
+                    ],
+                    "Resitances": [
+                        "Cold",
+                        "Fire",
+                        "Lightning",
+                        "Bludgeoning",
+                        "Piercing",
+                        "Slashing from nonmagical weapons"
+                    ]
+                }
+            ]
+        ]
+    },
+    {
+        "name": "TestTester121",
+        "ID": 4,
+        "public": true,
+        "key": "",
+        "ID_Master": 143213037,
+        "players": [
+            {
+                "ID": 143213037,
+                "ID_char": ""
+            }
+        ],
+        "events": [
+            [
+                {
+                    "Type": "Monster",
+                    "Name": "Lich",
+                    "Armor Class": 17,
+                    "Hit Points": 88,
+                    "Challenge": 33000,
+                    "Speed": 30,
+                    "Ability Scores": {
+                        "Strength": 11,
+                        "Dexterity": 16,
+                        "Constitution": 16,
+                        "Intelligence": 20,
+                        "Wisdom": 14,
+                        "Charisma": 16
+                    },
+                    "Saving Throws": {
+                        "Strength": "",
+                        "Dexterity": "",
+                        "Constitution": "+10",
+                        "Intelligence": "+12",
+                        "Wisdom": "+9",
+                        "Charisma": ""
+                    },
+                    "Legendary Resistance": "If the Lich fails a saving throw, it can choose to succeed instead",
+                    "Actions": [
+                        "Paralyzing Touch"
+                    ],
+                    "Legendary Actions": [
+                        "Cantrip",
+                        "Paralyzing Touch",
+                        "Frightening Gaze",
+                        "Disrupt Life"
+                    ],
+                    "Skills": [],
+                    "Immunities": [
+                        "Bludgeoning",
+                        "Piercing",
+                        "Slashing from nonmagical weapons"
+                    ],
+                    "Resitances": [
+                        "Cold",
+                        "Necrotic",
+                        "Lightning"
+                    ]
+                }
+            ],
+            [
+                {
+                    "Type": "Monster",
+                    "Name": "Lich",
+                    "Armor Class": 17,
+                    "Hit Points": 88,
+                    "Challenge": 33000,
+                    "Speed": 30,
+                    "Ability Scores": {
+                        "Strength": 11,
+                        "Dexterity": 16,
+                        "Constitution": 16,
+                        "Intelligence": 20,
+                        "Wisdom": 14,
+                        "Charisma": 16
+                    },
+                    "Saving Throws": {
+                        "Strength": "",
+                        "Dexterity": "",
+                        "Constitution": "+10",
+                        "Intelligence": "+12",
+                        "Wisdom": "+9",
+                        "Charisma": ""
+                    },
+                    "Legendary Resistance": "If the Lich fails a saving throw, it can choose to succeed instead",
+                    "Actions": [
+                        "Paralyzing Touch"
+                    ],
+                    "Legendary Actions": [
+                        "Cantrip",
+                        "Paralyzing Touch",
+                        "Frightening Gaze",
+                        "Disrupt Life"
+                    ],
+                    "Skills": [],
+                    "Immunities": [
+                        "Bludgeoning",
+                        "Piercing",
+                        "Slashing from nonmagical weapons"
+                    ],
+                    "Resitances": [
+                        "Cold",
+                        "Necrotic",
+                        "Lightning"
+                    ]
+                },
+                {
+                    "Type": "Monster",
+                    "Name": "Mimic",
+                    "Armor Class": 12,
+                    "Hit Points": 11221,
+                    "Challenge": 450,
+                    "Speed": 15,
+                    "Ability Scores": {
+                        "Strength": 17,
+                        "Dexterity": 12,
+                        "Constitution": 15,
+                        "Intelligence": 5,
+                        "Wisdom": 13,
+                        "Charisma": 8
+                    },
+                    "Saving Throws": {
+                        "Strength": "",
+                        "Dexterity": "",
+                        "Constitution": "",
+                        "Intelligence": "",
+                        "Wisdom": "",
+                        "Charisma": ""
+                    },
+                    "Legendary Resistance": "",
+                    "Actions": [
+                        "Pseudopod",
+                        "Bite"
+                    ],
+                    "Legendary Actions": [],
+                    "Skills": [
+                        "Stealth +5"
+                    ],
+                    "Immunities": [
+                        "Acid"
+                    ],
+                    "Resitances": []
+                }
+            ]
+        ]
+    }
+]

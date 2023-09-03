@@ -1,0 +1,32 @@
+{
+  "Diseases": {
+    "Cackle Fever": {
+      "Type": "Disease",
+      "Name": "Cackle Fever",
+      "Targets": "Humanoids",
+      "Immune": "Gnomes",
+      "Symptoms": "Manifest fever and disorientation 1d4 hours after the infection. Gain 1 level of exhaustion.",
+      "Effects": "If the infected player is stressed out he has to do a DC 13 Constitution saving throw. If he fails, he is gonna take 5 physical damage and become incapacitated with mad laughter for 1 minute.",
+      "Infection": "If a humanoid is within 10 feet of an infected player he has to do a DC 10 Constitution saving throw at the start of every turn, else he'll be infected.",
+      "Cure": "At the end of every long rest the infected creature can do a DC 13 Constitution saving throw. If it is successful the DC drop by 1d6 and when it goes down to 0 the creature is cured."
+    },
+    "Sewer Plague": {
+      "Type": "Disease",
+      "Name": "Sewer Plague",
+      "Targets": "Humanoids",
+      "Symptoms": "Manifest fatigue and cramps 1d4 days after the infection. Suffers 1 level of exhaustion and gains half the hit points from Hit Dice and no hit points from long rests.",
+      "Effects": "At the end of each long rest the player has to roll a DC 11 Constitution saving throw. If he fails he gains one exhaustion level, if he succeeds the exhaustion level drops by 1.",
+      "Infection": "The disease is transmitted by creatures that live in swamps, sewers or refuse heaps or contaminated filth or offal.",
+      "Cure": "If the exhaustion level drop below 1 after a saving throw the player recovers from the disease."
+    },
+    "Sight Rot": {
+      "Type": "Disease",
+      "Name": "Sight Rot",
+      "Targets": "Beast or humanoid.",
+      "Symptoms": "Manifest bleeding from the eyes 1d after the infection and may cause blindness. Takes a -1 penalty to attack rolls and ability checks that rely on sight.",
+      "Effects": "At the end of each long rest the penalty given to the player worsens by 1. When it reaches -5 the players becomes completely blind.",
+      "Infection": "The disease is transmitted by water tainted by sight rot.",
+      "Cure": "If the player is already completely blind his vision must be restored through magic, else he has to apply an ointment on his eyes before a long rest for three times to recover completely."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{   
+    "Type": "Monster",
+    "Name": "", 
+    "Armor Class": 0,
+    "Hit Points": 0,
+    "Challenge": 0,
+    "Speed": 0,
+    "Ability Scores": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Constitution": 0,
+        "Intelligence": 0,
+        "Wisdom": 0,
+        "Charisma": 0
+    },
+    "Saving Throws": {
+        "Strength": "",
+        "Dexterity": "",
+        "Constitution": "",
+        "Intelligence": "",
+        "Wisdom": "",
+        "Charisma": ""
+    },
+    "Legendary Resistance": "",
+    "Actions": [],
+    "Legendary Actions": [],
+    "Skills": [],
+    "Immunities": [],
+    "Resistances": []
+}

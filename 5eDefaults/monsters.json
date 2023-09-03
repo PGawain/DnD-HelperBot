@@ -1,0 +1,342 @@
+{
+  "Monsters": {
+    "Black Dragon": {
+        "Wyrmling": {
+          "Type": "Monster",
+          "Name": "Wyrmling black dragon",
+          "Armor Class": 17,
+          "Hit Points": 33,
+          "Challenge": 450,
+          "Speed": 30,
+            "Ability Scores": {
+              "Strength": 15,
+              "Dexterity": 14,
+              "Constitution": 13,
+              "Intelligence": 10,
+              "Wisdom": 11,
+              "Charisma": 13
+        },
+            "Saving Throws": {
+              "Strength": "",
+              "Dexterity": "+4",
+              "Constitution": "+3",
+              "Intelligence": "",
+              "Wisdom": "+2",
+              "Charisma": "+3"
+          },
+          "Legendary Resistance": "",
+          "Actions": ["Bite", "Acid Breath"],
+          "Legendary Actions": [],
+          "Skills": ["Perception +4", "Stealth +4"],
+          "Immunities": ["Acid"],
+          "Resitances": []
+        },
+      "Young": {
+          "Type": "Monster",
+          "Name": "Young black dragon",
+          "Armor Class": 18,
+          "Hit Points": 127,
+          "Challenge": 2900,
+          "Speed": 40,
+            "Ability Scores": {
+              "Strength": 19,
+              "Dexterity": 14,
+              "Constitution": 17,
+              "Intelligence": 12,
+              "Wisdom": 11,
+              "Charisma": 15
+        },
+            "Saving Throws": {
+              "Strength": "",
+              "Dexterity": "+5",
+              "Constitution": "+6",
+              "Intelligence": "",
+              "Wisdom": "+3",
+              "Charisma": "+5"
+          },
+          "Legendary Resistance": "",
+          "Actions": ["Multiattack","Bite", "Claw", "Acid Breath"],
+          "Legendary Actions": [],
+          "Skills": ["Perception +6", "Stealth +5"],
+          "Immunities": ["Acid"],
+          "Resitances": []
+        },
+      "Adult": {
+          "Type": "Monster",
+          "Name": "Adult black dragon",
+          "Armor Class": 19,
+          "Hit Points": 195,
+          "Challenge": 11500,
+          "Speed": 40,
+            "Ability Scores": {
+              "Strength": 23,
+              "Dexterity": 14,
+              "Constitution": 21,
+              "Intelligence": 14,
+              "Wisdom": 13,
+              "Charisma": 17
+        },
+            "Saving Throws": {
+              "Strength": "",
+              "Dexterity": "+7",
+              "Constitution": "+10",
+              "Intelligence": "",
+              "Wisdom": "+6",
+              "Charisma": "+8"
+          },
+          "Legendary Resistance": "If the dragon fails a saving throw, it can choose to succeed instead",
+          "Actions": ["Multiattack","Bite", "Claw", "Tail", "Frightful Presence", "Acid Breath"],
+          "Legendary Actions": ["Detect", "Tail Attack", "Wing Attack"],
+          "Skills": ["Perception +4", "Stealth +4"],
+          "Immunities": ["Acid"],
+          "Resitances": []
+        },
+      "Ancient": {
+          "Type": "Monster",
+          "Name": "Ancient black dragon",
+          "Armor Class": 22,
+          "Hit Points": 367,
+          "Challenge": 27500,
+          "Speed": 40,
+            "Ability Scores": {
+              "Strength": 27,
+              "Dexterity": 14,
+              "Constitution": 25,
+              "Intelligence": 16,
+              "Wisdom": 15,
+              "Charisma": 19
+        },
+            "Saving Throws": {
+              "Strength": "+9",
+              "Dexterity": "",
+              "Constitution": "+14",
+              "Intelligence": "",
+              "Wisdom": "+9",
+              "Charisma": "+11"
+          },
+          "Legendary Resistance": "If the dragon fails a saving throw, it can choose to succeed instead",
+          "Actions": ["Multiattack","Bite", "Claw", "Tail", "Frightful Presence", "Acid Breath"],
+          "Legendary Actions": ["Detect", "Tail Attack", "Wing Attack"],
+          "Skills": ["Perception +4", "Stealth +4"],
+          "Immunities": ["Acid"],
+          "Resitances": []
+        }
+    },
+    "Demon": {
+      "Balor": {
+          "Type": "Monster",
+          "Name": "Balor",
+          "Armor Class": 19,
+          "Hit Points": 262,
+          "Challenge": 22000,
+          "Speed": 40,
+            "Ability Scores": {
+              "Strength": 26,
+              "Dexterity": 15,
+              "Constitution": 22,
+              "Intelligence": 20,
+              "Wisdom": 16,
+              "Charisma": 22
+        },
+          "Saving Throws": {
+            "Strength": "+14",
+            "Dexterity": "",
+            "Constitution": "+12",
+            "Intelligence": "",
+            "Wisdom": "+9",
+            "Charisma": "+12"
+          },
+          "Legendary resistance": "",
+          "Actions": ["Multiattack", "Longsword", "Whip", "Teleport"],
+          "Legendary Actions": [],
+          "Skills": [],
+          "Immunities": ["Fire", "Poison"],
+          "Resitances": ["Cold", "Lightning", "Bludgeoning", "Piercing", "Slashing from nonmagical weapons"]
+        },
+      "Barlgura": {
+          "Type": "Monster",
+          "Name": "Barlgura",
+          "Armor Class": 15,
+          "Hit Points": 68,
+          "Challenge": 1800,
+          "Speed": 30,
+            "Ability Scores": {
+              "Strength": 18,
+              "Dexterity": 15,
+              "Constitution": 16,
+              "Intelligence": 7,
+              "Wisdom": 14,
+              "Charisma": 9
+        },
+          "Saving Throws": {
+            "Strength": "",
+            "Dexterity": "+5",
+            "Constitution": "+6",
+            "Intelligence": "",
+            "Wisdom": "",
+            "Charisma": ""
+          },
+          "Legendary Resistance": "",
+          "Actions": ["Multiattack", "Bite", "Fist"],
+          "Legendary Actions": [],
+          "Skills": [],
+          "Immunities": ["Poison"],
+          "Resitances": ["Cold", "Lightning", "Fire"]
+        },
+      "Glabrezu": {
+          "Type": "Monster",
+          "Name": "Glabrezu",
+          "Armor Class": 17,
+          "Hit Points": 157,
+          "Challenge": 5000,
+          "Speed": 40,
+            "Ability Scores": {
+              "Strength": 20,
+              "Dexterity": 15,
+              "Constitution": 21,
+              "Intelligence": 19,
+              "Wisdom": 17,
+              "Charisma": 16
+          },
+          "Saving Throws": {
+            "Strength": "+9",
+            "Dexterity": "",
+            "Constitution": "+9",
+            "Intelligence": "",
+            "Wisdom": "+7",
+            "Charisma": "+7"
+          },
+          "Legendary Resistance": "",
+          "Actions": ["Multiattack", "Pincer", "Fist"],
+          "Legendary Actions": [],
+          "Skills": [],
+          "Immunities": ["Poison"],
+          "Resitances": ["Cold","Fire", "Lightning", "Bludgeoning", "Piercing", "Slashing from nonmagical weapons"]
+        }
+    },
+    "Lich": {
+      "Type": "Monster",
+      "Name": "Lich",
+      "Armor Class": 17,
+      "Hit Points": 135,
+      "Challenge": 33000,
+      "Speed": 30,
+        "Ability Scores": {
+          "Strength": 11,
+          "Dexterity": 16,
+          "Constitution": 16,
+          "Intelligence": 20,
+          "Wisdom": 14,
+          "Charisma": 16
+        },
+        "Saving Throws": {
+          "Strength": "",
+          "Dexterity": "",
+          "Constitution": "+10",
+          "Intelligence": "+12",
+          "Wisdom": "+9",
+          "Charisma": ""
+      },
+      "Legendary Resistance": "If the Lich fails a saving throw, it can choose to succeed instead",
+      "Actions": ["Paralyzing Touch"],
+      "Legendary Actions": ["Cantrip", "Paralyzing Touch", "Frightening Gaze", "Disrupt Life"],
+      "Skills": [],
+      "Immunities": ["Bludgeoning", "Piercing", "Slashing from nonmagical weapons"],
+      "Resitances": ["Cold", "Necrotic", "Lightning"]
+    },
+    "Mimic": {
+      "Type": "Monster",
+      "Name": "Mimic",
+      "Armor Class": 12,
+      "Hit Points": 58,
+      "Challenge": 450,
+      "Speed": 15,
+        "Ability Scores": {
+          "Strength": 17,
+          "Dexterity": 12,
+          "Constitution": 15,
+          "Intelligence": 5,
+          "Wisdom": 13,
+          "Charisma": 8
+        },
+        "Saving Throws": {
+          "Strength": "",
+          "Dexterity": "",
+          "Constitution": "",
+          "Intelligence": "",
+          "Wisdom": "",
+          "Charisma": ""
+      },
+      "Legendary Resistance": "",
+      "Actions": ["Pseudopod", "Bite"],
+      "Legendary Actions": [],
+      "Skills": ["Stealth +5"],
+      "Immunities": ["Acid"],
+      "Resitances": []
+    },
+    "Goblin": {
+      "Standard Goblin": {
+        "Type": "Monster",
+        "Name": "Standard goblin",
+        "Armor Class": 15,
+        "Hit Points": 7,
+        "Challenge": 50,
+        "Speed": 30,
+          "Ability Scores": {
+            "Strength": 8,
+            "Dexterity": 14,
+            "Constitution": 10,
+            "Intelligence": 10,
+            "Wisdom": 8,
+            "Charisma": 8
+        },
+        "Saving Throws": {
+          "Strength": "",
+          "Dexterity": "",
+          "Constitution": "",
+          "Intelligence": "",
+          "Wisdom": "",
+          "Charisma": ""
+      },
+        "Legendary Resistance": "",
+        "Actions": ["Scimitar", "Shortbow"],
+        "Legendary Actions": [],
+        "Skills": ["Stealth +6"],
+        "Immunities": [],
+        "Resitances": []
+
+      },
+      "Goblin Boss": {
+        "Type": "Monster",
+        "Name": "Goblin boss",
+        "Armor Class": 17,
+        "Hit Points": 21,
+        "Challenge": 200,
+        "Speed": 30,
+          "Ability Scores": {
+            "Strength": 10,
+            "Dexterity": 14,
+            "Constitution": 10,
+            "Intelligence": 10,
+            "Wisdom": 8,
+            "Charisma": 10
+        },
+        "Saving Throws": {
+          "Strength": "",
+          "Dexterity": "",
+          "Constitution": "",
+          "Intelligence": "",
+          "Wisdom": "",
+          "Charisma": ""
+      },
+        "Legendary Resistance": "",
+        "Actions": ["Scimitar", "Multiattack", "Javelin"],
+        "Legendary Actions": [],
+        "Skills": ["Stealth +6"],
+        "Immunities": [],
+        "Resitances": []
+
+      }
+    }
+  }
+}

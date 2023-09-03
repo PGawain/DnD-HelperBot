@@ -1,0 +1,36 @@
+{
+    "name": "",
+    "race": "",
+    "subrace": "",
+    "class": "",
+    "background": "",
+    "background story": "",
+    "ability_scores": {
+      "Strength": 0,
+      "Dexterity": 0,
+      "Constitution": 0,
+      "Intelligence": 0,
+      "Wisdom": 0,
+      "Charisma": 0
+    },
+    "ability_modifiers": {
+      "Strength": 0,
+      "Dexterity": 0,
+      "Constitution": 0,
+      "Intelligence": 0,
+      "Wisdom": 0,
+      "Charisma": 0
+    },
+    "features": [],
+    "armor": "",
+    "weapons": [],
+    "inventory": {
+      "misc": [],
+      "weapons": [],
+      "armor": [],
+      "gold": 0
+    },
+    "max_weight": 0,
+    "current_weight": 0,
+    "level": 1
+}

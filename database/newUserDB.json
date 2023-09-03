@@ -1,0 +1,342 @@
+{
+    "users": [
+        {
+            "telegramID": 143213037,
+            "username": "Maestro",
+            "characters": [
+                {
+                    "name": "Armad\u00f9",
+                    "race": "human",
+                    "subrace": "",
+                    "class": "barbarian",
+                    "background": "acolyte",
+                    "background story": "",
+                    "ability_scores": {
+                        "Strength": 18,
+                        "Dexterity": 12,
+                        "Constitution": 14,
+                        "Intelligence": 12,
+                        "Wisdom": 11,
+                        "Charisma": 11
+                    },
+                    "ability_modifiers": {
+                        "Strength": 3,
+                        "Dexterity": 1,
+                        "Constitution": 1,
+                        "Intelligence": 1,
+                        "Wisdom": -1,
+                        "Charisma": -1
+                    },
+                    "features": [
+                        {
+                            "name": "Rage"
+                        },
+                        {
+                            "name": "Unarmored defense"
+                        }
+                    ],
+                    "armor": "",
+                    "weapons": [],
+                    "inventory": {
+                        "misc": [
+                            "Spellbook",
+                            "Component Pouch",
+                            "Scholar's Pack"
+                        ],
+                        "weapons": [
+                            "Quarterstaff"
+                        ],
+                        "armor": [],
+                        "gold": 0
+                    },
+                    "max_weight": 300.0,
+                    "current_weight": 20.0,
+                    "level": 1,
+                    "proficiency": {
+                        "weapons": [
+                            "Simple weapons",
+                            "Martial weapons"
+                        ],
+                        "skill": [],
+                        "armor": [
+                            "Light Armor",
+                            "Medium Armor",
+                            "Shields"
+                        ]
+                    }
+                },
+                {
+                    "name": "Giovanni",
+                    "race": "human",
+                    "subrace": "",
+                    "class": "cleric",
+                    "background": "acolyte",
+                    "background story": "",
+                    "ability_scores": {
+                        "Strength": 11,
+                        "Dexterity": 19,
+                        "Constitution": 16,
+                        "Intelligence": 14,
+                        "Wisdom": 15,
+                        "Charisma": 10
+                    },
+                    "ability_modifiers": {
+                        "Strength": 0,
+                        "Dexterity": 4,
+                        "Constitution": 2,
+                        "Intelligence": 2,
+                        "Wisdom": 2,
+                        "Charisma": -1
+                    },
+                    "features": [
+                        {
+                            "name": "Spellcasting"
+                        },
+                        {
+                            "name": "Divine Domain Spells"
+                        },
+                        {
+                            "name": "Divine Domain",
+                            "option": "Knowledge Domain"
+                        }
+                    ],
+                    "armor": "",
+                    "weapons": [],
+                    "inventory": {
+                        "misc": [
+                            "Explorer's Pack"
+                        ],
+                        "weapons": [
+                            "4 Javelin",
+                            "Greataxe",
+                            "Handaxe"
+                        ],
+                        "armor": [],
+                        "gold": 0
+                    },
+                    "max_weight": 165.0,
+                    "current_weight": 41.0,
+                    "level": 1,
+                    "proficiency": {
+                        "weapons": [
+                            "Simple weapons",
+                            "Martial weapons"
+                        ],
+                        "skill": [],
+                        "armor": [
+                            "Light Armor",
+                            "Medium Armor",
+                            "Shields"
+                        ]
+                    }
+                },
+                {
+                    "name": "Giacomo",
+                    "race": "human",
+                    "subrace": "",
+                    "class": "cleric",
+                    "background": "acolyte",
+                    "background story": "",
+                    "ability_scores": {
+                        "Strength": 8,
+                        "Dexterity": 10,
+                        "Constitution": 9,
+                        "Intelligence": 11,
+                        "Wisdom": 15,
+                        "Charisma": 8
+                    },
+                    "ability_modifiers": {
+                        "Strength": -2,
+                        "Dexterity": -1,
+                        "Constitution": -1,
+                        "Intelligence": 0,
+                        "Wisdom": 2,
+                        "Charisma": -2
+                    },
+                    "features": [
+                        {
+                            "name": "Spellcasting"
+                        },
+                        {
+                            "name": "Divine Domain Spells"
+                        },
+                        {
+                            "name": "Divine Domain",
+                            "option": "Knowledge Domain"
+                        }
+                    ],
+                    "armor": "",
+                    "weapons": [],
+                    "inventory": {
+                        "misc": [
+                            "Holy Symbol",
+                            "20 Bolts",
+                            "Priest's Pack"
+                        ],
+                        "weapons": [
+                            "Light Crossbow",
+                            "Mace"
+                        ],
+                        "armor": [
+                            "Shield",
+                            "Scale Mail"
+                        ],
+                        "gold": 0
+                    },
+                    "max_weight": 90.0,
+                    "current_weight": 80.0,
+                    "level": 1,
+                    "proficiency": {
+                        "weapons": [
+                            "Simple weapons"
+                        ],
+                        "skill": [],
+                        "armor": [
+                            "Light Armor",
+                            "Medium Armor",
+                            "Shields"
+                        ]
+                    }
+                },
+                {
+                    "name": "Arthur",
+                    "race": "human",
+                    "subrace": "",
+                    "class": "barbarian",
+                    "background": "criminal",
+                    "background story": "",
+                    "ability_scores": {
+                        "Strength": 14,
+                        "Dexterity": 13,
+                        "Constitution": 11,
+                        "Intelligence": 10,
+                        "Wisdom": 14,
+                        "Charisma": 10
+                    },
+                    "ability_modifiers": {
+                        "Strength": 1,
+                        "Dexterity": 1,
+                        "Constitution": 0,
+                        "Intelligence": 0,
+                        "Wisdom": 1,
+                        "Charisma": -1
+                    },
+                    "features": [
+                        {
+                            "name": "Rage"
+                        },
+                        {
+                            "name": "Unarmored defense"
+                        }
+                    ],
+                    "armor": "",
+                    "weapons": [],
+                    "inventory": {
+                        "misc": [
+                            "Explorer's Pack",
+                            "Crowbar"
+                        ],
+                        "weapons": [
+                            "4 Javelin",
+                            "Trident",
+                            "Greatclub"
+                        ],
+                        "armor": [],
+                        "gold": 0
+                    },
+                    "max_weight": 225.0,
+                    "current_weight": 53.0,
+                    "level": 1,
+                    "proficiency": {
+                        "weapons": [
+                            "Simple weapons",
+                            "Martial weapons"
+                        ],
+                        "skill": [],
+                        "armor": [
+                            "Light Armor",
+                            "Medium Armor",
+                            "Shields"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "telegramID": 1068338946,
+            "username": "chiasmo",
+            "characters": [
+                {
+                    "name": "Rolindo",
+                    "race": "dwarf",
+                    "subrace": "Hill Dwarf",
+                    "class": "wizard",
+                    "background": "acolyte",
+                    "background story": "",
+                    "ability_scores": {
+                        "Strength": 5,
+                        "Dexterity": 14,
+                        "Constitution": 18,
+                        "Intelligence": 12,
+                        "Wisdom": 15,
+                        "Charisma": 13
+                    },
+                    "ability_modifiers": {
+                        "Strength": -3,
+                        "Dexterity": 2,
+                        "Constitution": 3,
+                        "Intelligence": 1,
+                        "Wisdom": 2,
+                        "Charisma": 1
+                    },
+                    "features": [],
+                    "armor": "Padded ",
+                    "weapons": [
+                        "Flail",
+                        "Greatclub",
+                        "Battleaxe",
+                        "Club",
+                        "Dart",
+                        "Dart"
+                    ],
+                    "inventory": {
+                        "misc": [
+                            "Spellbook",
+                            "Holy Symbol",
+                            "Prayer book/wheel",
+                            "5 sticks of incense",
+                            "Vestments",
+                            "Common clothes",
+                            "Component pouch",
+                            "Scholar's pack"
+                        ],
+                        "weapons": [
+                            "Quarterstaff or Dagger"
+                        ],
+                        "armor": [],
+                        "gold": 10
+                    },
+                    "max_weight": 30.0,
+                    "current_weight": 29.5,
+                    "level": 1,
+                    "proficiency": {
+                        "weapons": [
+                            "Dagger",
+                            "Dart",
+                            "Sling",
+                            "Quarterstaff",
+                            "Light Crossbow"
+                        ],
+                        "skill": [],
+                        "armor": []
+                    }
+                }
+            ]
+        },
+        {
+            "telegramID": 342168631,
+            "username": "matteo",
+            "characters": []
+        }
+    ]
+}
