@@ -4147,8 +4147,10 @@ async def actionChoice(update, context):
         return ROLL_DICE
 
     elif chosen_action == "SKIP THIS EVENT":
-        #await context.bot.send_message(chat_id=masterID, text= curr_player + "has decided to skip this event")
-        #await context.bot.send_message(chat_id=update.effective_chat.id, text= curr_player + "has decided to skip this event")
+        try:
+            await context.bot.send_message(chat_id=masterID, text= curr_player_name + "has decided to skip this event")
+        except:
+            print("user not found")
         await context.bot.send_message(chat_id=update.effective_chat.id, text= "You have skipped the event", reply_markup=ReplyKeyboardMarkup(kb, one_time_keyboard=True))
         return PLAYER_ACTIONS
 
@@ -4182,7 +4184,7 @@ async def actionChoice(update, context):
     elif chosen_action == "VIEW MAP":
         try:
             with open(f'maps/{current_campaign}.jpg', 'rb') as f:
-                await context.bot.send_photo(chat_id=update.effective_chat.id, photo=InputFile(f), caption=f"Here's your saved map for campaign n* {current_campaign}")
+                await context.bot.send_photo(chat_id=update.effective_chat.id, photo=InputFile(f), caption=f"Here's your saved map for campaign n* {current_campaign}", reply_markup=ReplyKeyboardMarkup(kb, one_time_keyboard=True))
         except FileNotFoundError:
                 await context.bot.send_message(chat_id=update.effective_chat.id, text = "The master has not upload any map", reply_markup=ReplyKeyboardMarkup(kb, one_time_keyboard=True))
         return PLAYER_ACTIONS
@@ -4270,7 +4272,11 @@ async def rollDiceFight(update, context):
 
         n-=1
     str_number = str(number)
-    #await context.bot.send_message(master=masterID, text= curr_player + "rolled the dice and scored: " + str_number)
+    try:
+        await context.bot.send_message(chat_id=masterID, text= curr_player_name + " rolled the dice and scored: " + str_number)	
+    except:
+        print("User not found")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text= "You rolled the dice and scored: " + str_number)
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Soon the master will tell you if the opponent has been defeated", reply_markup=ReplyKeyboardMarkup(kb, one_time_keyboard=True))
     return PLAYER_ACTIONS
 
@@ -4283,48 +4289,66 @@ async def rollDiceTask(update, context):
         print(number)
         await context.bot.send_message(chat_id=update.effective_chat.id, text="You rolled the dice and scored: " + str(number))
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Press continue and choose what to do now", reply_markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True))
-        #await context.bot.send_message(chat_id=masterID, text="You rolled the dice and scored: " + str(number))
+        try:
+            await context.bot.send_message(chat_id=masterID, text= curr_player_name + " rolled the dice and scored: " + str(number))
+        except:
+            print("User not found")
         return ROLL_DICE
     elif dice== "d6":
         number = random.randint(1, 6)
         print(number)
         await context.bot.send_message(chat_id=update.effective_chat.id, text="You rolled the dice and scored: " + str(number))
-        #await context.bot.send_message(chat_id=masterID, text="You rolled the dice and scored: " + str(number))
+        try:
+            await context.bot.send_message(chat_id=masterID, text= curr_player_name + " rolled the dice and scored: " + str(number))
+        except:
+            print("User not found")
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Press continue and choose what to do now", reply_markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True))
         return ROLL_DICE
     elif dice == "d8":
         number = random.randint(1, 8)
         print(number)
         await context.bot.send_message(chat_id=update.effective_chat.id, text="You rolled the dice and scored: " + str(number))
-        #await context.bot.send_message(chat_id=masterID, text="You rolled the dice and scored: " + str(number))
+        try:
+            await context.bot.send_message(chat_id=masterID, text= curr_player_name + " rolled the dice and scored: " + str(number))
+        except:
+            print("User not found")
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Press continue and choose what to do now", reply_markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True))
         return ROLL_DICE
     elif dice == "d10":
         number = random.randint(1, 10)
         print(number)
         await context.bot.send_message(chat_id=update.effective_chat.id, text="You rolled the dice and scored: " + str(number))
-        #await context.bot.send_message(chat_id=masterID, text="You rolled the dice and scored: " + str(number))
+        try:
+            await context.bot.send_message(chat_id=masterID, text= curr_player_name + " rolled the dice and scored: " + str(number))
+        except:
+            print("User not found")
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Press continue and choose what to do now", reply_markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True))
         return ROLL_DICE
     elif dice == "d12":
         number = random.randint(1, 12)
         print(number)
         await context.bot.send_message(chat_id=update.effective_chat.id, text="You rolled the dice and scored: " + str(number))
-        #await context.bot.send_message(chat_id=masterID, text="You rolled the dice and scored: " + str(number))
+        try:
+            await context.bot.send_message(chat_id=masterID, text= curr_player_name + " rolled the dice and scored: " + str(number))
+        except:
+            print("User not found")
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Press continue and choose what to do now", reply_markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True))
         return ROLL_DICE
     elif dice == "d20":
         number = random.randint(1, 20)
         print(number)
         await context.bot.send_message(chat_id=update.effective_chat.id, text="You rolled the dice and scored: " + str(number))
-        #await context.bot.send_message(chat_id=masterID, text="You rolled the dice and scored: " + str(number))
+        try:
+            await context.bot.send_message(chat_id=masterID, text= curr_player_name + " rolled the dice and scored: " + str(number))
+        except:
+            print("User not found")
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Press continue and choose what to do now", reply_markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True))
         return ROLL_DICE
     elif dice == "STOP ROLLING":
         kb = []
         kb.append(["BACK MENU"])
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Soon the master will tell you if the task has been completed", reply_markup = ReplyKeyboardMarkup(kb, one_time_keyboard=True) )
-
+        return PLAYER_ACTIONS
 
 async def chooseCharToMod(update, context):
     print("hello")
@@ -4499,22 +4523,26 @@ async def createEventToSend(update, context):
     return SEND_EVENT
 
 async def sendEvent(update, context):
-    event = update.message.text
-    with open("database/campaignsDB.json", "r") as f:
-        data = json.load(f)
-    for campaign in data:
-        if campaign["ID"] == current_campaign:
-            players = campaign["players"]  
-    for player in players:
-        playerID = player["ID"]
-        #await context.bot.send_message(chat_id = playerID, text = event)
-    await context.bot.send_message(chat_id = update.effective_chat.id, text = "Event sent!")
-    keyboard = [
-        [InlineKeyboardButton("Back to menu", callback_data=str("GAME_START"))]
-        ]   
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="Now you can return to the main menu", reply_markup=InlineKeyboardMarkup(keyboard))
-    ConversationHandler.END
-    #await startGameMenu(update, context)
+    event = update.message.text		
+    with open("database/campaignsDB.json", "r") as f:	
+        data = json.load(f)	
+    for campaign in data:	
+        if campaign["ID"] == current_campaign:	
+            players = campaign["players"]  	
+    for player in players:	
+        playerID = player["ID"]	
+        if playerID != masterID:	
+            try:	
+                await context.bot.send_message(chat_id = playerID, text = event)	
+            except:	
+                print("NOT ONLINE")	
+    await context.bot.send_message(chat_id = update.effective_chat.id, text = "Event sent!")	
+    keyboard = [	
+        [InlineKeyboardButton("Back to menu", callback_data=str("GAME_START"))]	
+        ]   	
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="Now you can return to the main menu", reply_markup=InlineKeyboardMarkup(keyboard))	
+    ConversationHandler.END	
+    #await startGameMenu(update, context)	
     #return ConversationHandler.END
 
 async def infoPlayers(update, context):
@@ -4728,4 +4756,3 @@ async def saveFeature(update, context, feature, option=None):
 
 if __name__ == "__main__":
     botSetup()
-
